@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre_completo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_de_nacimiento"
+        android:textSize="18sp" />
+
+    <DatePicker
+        android:id="@+id/datepicker_fechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <EditText
+        android:id="@+id/editText_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/telefono" />
+
+    <EditText
+        android:id="@+id/editText_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/editText_DescripcionContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/descripcion_contacto" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/siguiente"
+        android:onClick="onClickSiguiente"/>
+
+</LinearLayout>

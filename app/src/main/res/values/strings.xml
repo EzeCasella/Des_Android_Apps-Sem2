@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyAppFormulario</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="email">Email</string>
+    <string name="descripcion_contacto">Descripcion Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="telefono">Telefono</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_confirmar_datos">ConfirmarDatosActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="editar_datos">Editar Datos</string>
+
+<!--    INTENTS PARAMETERS-->
+    <string name="p_nombre">nombre</string>
+    <string name="p_fecha_nacimiento">fecha nacimiento</string>
+    <string name="p_telefono">telefono</string>
+    <string name="p_email">email</string>
+    <string name="p_descripcion">descripcion</string>
+</resources>
